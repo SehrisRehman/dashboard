@@ -3,6 +3,7 @@ import { CiShoppingCart } from "react-icons/ci";
 import { IoSearchOutline } from "react-icons/io5";
 import { IoMdMenu } from "react-icons/io";
 import Image from 'next/image'
+import lowerlogo from '../../../public/lowerlogo.webp'
 
 const Navbar = () => {
   return (
@@ -12,7 +13,13 @@ const Navbar = () => {
           <IoMdMenu />
         </button>
         <div className='w-40 md:w-48 lg:w-52 xl:w-60'>
-        <Image src="/logo.png" alt="Logo" width={100} height={100} />
+        <Image 
+            src={lowerlogo} 
+            alt="Company logo" 
+            width={160}
+            height={40}
+            className='w-full h-auto'
+          />
         </div>
       </div>
 
