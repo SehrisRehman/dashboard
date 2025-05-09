@@ -2,6 +2,7 @@ import React from 'react';
 import { CiShoppingCart } from "react-icons/ci";
 import { IoSearchOutline } from "react-icons/io5";
 import { IoMdMenu } from "react-icons/io";
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
@@ -11,11 +12,7 @@ const Navbar = () => {
           <IoMdMenu />
         </button>
         <div className='w-40 md:w-48 lg:w-52 xl:w-60'>
-          <img 
-            src="https://br-collins-latest.vercel.app/img/logo.svg" 
-            alt="BR Collins Logo" 
-            className='w-full h-auto'
-          />
+        <Image src="/logo.png" alt="Logo" width={100} height={100} />
         </div>
       </div>
 

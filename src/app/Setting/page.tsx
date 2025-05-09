@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import SettingProfile from '../SettingProfile/page';
 import SettingPassword from '../SettingPassword/page';
 
-const page = () => {
+const Page = () => {
     const [active, setActive] = useState('');
     const returncomponent = () => {
       switch (active) {
@@ -47,4 +47,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -10,7 +10,7 @@ const page = () => {
         <div className='flex gap-20'>
             <div className=' '>
                 <h5 className=' font-semibold'>First Name*</h5>
-                <span>Enter the student's full legal name.</span>
+                <span>Enter the students full legal name.</span>
             </div>
             <div><form action=""><input type="text" placeholder='First Name' className='outline-none border border-gray-400 p-3 rounded-xl w-[350px]' /></form></div>
         </div>

@@ -38,7 +38,7 @@ const Page = () => {
         <div className='flex flex-col sm:flex-row py-4 sm:py-5 px-4 sm:px-6'>
           <span className='text-gray-600 w-full sm:w-3/12 mb-2 sm:mb-0 text-sm sm:text-base'>Biography</span>
           <span className='text-gray-900 w-full sm:w-9/12 text-sm sm:text-base'>
-            Hi, I'm Charlotte Anderson, a college student currently pursuing a degree in Business Administration. I'm passionate about leadership, communication, and developing real-world skills that will help me thrive in a professional environment.
+            Hi, Im Charlotte Anderson, a college student currently pursuing a degree in Business Administration. I'm passionate about leadership, communication, and developing real-world skills that will help me thrive in a professional environment.
           </span>
         </div>
       </div>
