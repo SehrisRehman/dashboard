@@ -14,7 +14,7 @@ const Navbar = () => {
         </button>
         <div className='w-40 md:w-48 lg:w-52 xl:w-60'>
         <Image 
-            src={lowerlogo} 
+            src='https://br-collins-latest.vercel.app/img/logo.svg'
             alt="Company logo" 
             width={160}
             height={40}

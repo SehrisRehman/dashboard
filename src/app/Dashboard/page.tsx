@@ -48,7 +48,7 @@ const Page = () => {
   };
 
   return (
-    <div className='max-w-[1326px] max-h-[826px] rounded-[20px] sm:w-full sm:h-auto bg-white mt-20'>
+    <div className='max-w-[1326px] max-h-[826px] rounded-[20px] sm:w-full sm:h-[300vh] bg-white mt-20'>
 
       <div className='flex flex-col sm:flex-row justify-between items-start sm:items-center px-4 sm:px-6 lg:px-8 py-4 lg:py-5 gap-4 sm:gap-0'>
 
